@@ -1,0 +1,33 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Binary files
+*.asar binary
+*.exe binary
+*.msi binary
+*.dmg binary
+*.deb binary
+*.rpm binary
+*.AppImage binary
+*.app/** binary
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.icns binary
+
+# Archive files
+*.zip binary
+*.tar.gz binary
+*.7z binary
+*.rar binary
+
+# Never include these files
+dist/** export-ignore
+out/** export-ignore
+build/** export-ignore
+release/** export-ignore
+*.log export-ignore
+node_modules/** export-ignore
